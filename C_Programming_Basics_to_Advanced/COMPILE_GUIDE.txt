@@ -1,0 +1,17 @@
+C PROGRAMMING COMPILATION GUIDE
+
+1. Install GCC / MinGW on Windows, or GCC on Linux.
+2. Open terminal in the folder containing the .c file.
+3. Compile:
+       gcc filename.c -o program
+4. Run on Windows:
+       program.exe
+   Run on Linux/macOS:
+       ./program
+
+For programs using math.h:
+       gcc filename.c -o program -lm
+
+For command-line arguments:
+       gcc 01_command_line_arguments.c -o args
+       args one two three
